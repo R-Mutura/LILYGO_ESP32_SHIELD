@@ -811,17 +811,6 @@ GPIO25
 Text Notes 1100 6775 3    39   ~ 0
 BATTERY PADS
 $Comp
-L Switch:SW_SPDT SW1
-U 1 1 61D13211
-P 3675 7050
-F 0 "SW1" H 3675 7335 50  0000 C CNN
-F 1 "SW_SPDT" H 3675 7244 50  0000 C CNN
-F 2 "" H 3675 7050 50  0001 C CNN
-F 3 "~" H 3675 7050 50  0001 C CNN
-	1    3675 7050
-	1    0    0    -1  
-$EndComp
-$Comp
 L OLIMEX_Power:GND #PWR0125
 U 1 1 61D2B72A
 P 3475 7175
@@ -881,18 +870,6 @@ Wire Wire Line
 	8525 850  8525 725 
 Wire Wire Line
 	8525 725  8200 725 
-$Comp
-L GCL_Modules&Devboards:LilyGO_ESP32_TTGO U2
-U 1 1 61B0C159
-P 7450 1675
-F 0 "U2" H 6975 1825 50  0000 C CNN
-F 1 "LilyGO_ESP32_TTGO" H 6875 1725 50  0000 C CNN
-F 2 "" H 6500 1175 50  0001 C CNN
-F 3 "" H 6500 1175 50  0001 C CNN
-F 4 "LilyGO_ESP32_TTGO" H 7450 1675 50  0001 C CNN "MPN"
-	1    7450 1675
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6550 2075 6400 2075
 Wire Wire Line
@@ -1618,4 +1595,101 @@ F 4 "UT337M6R3HEJTA" H 8525 950 50  0001 C CNN "MFR"
 	1    8525 950 
 	1    0    0    -1  
 $EndComp
+$Comp
+L GCL_Modules&Devboards:LilyGO_ESP32_TTGO U?
+U 1 1 61971A82
+P 7450 1675
+F 0 "U?" H 7450 2056 50  0000 C CNN
+F 1 "LilyGO_ESP32_TTGO" H 7450 1965 50  0000 C CNN
+F 2 "greencharge-footprints:LILLYGO_ESP32_TTGO" H 6500 1175 50  0001 C CNN
+F 3 "" H 6500 1175 50  0001 C CNN
+	1    7450 1675
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6550 1825
+NoConn ~ 6550 2725
+NoConn ~ 6550 2825
+NoConn ~ 6550 3325
+NoConn ~ 6550 3425
+NoConn ~ 6550 3525
+NoConn ~ 6550 3625
+NoConn ~ 6550 3725
+NoConn ~ 6550 3825
+NoConn ~ 8350 3425
+NoConn ~ 8350 3325
+NoConn ~ 8350 3225
+NoConn ~ 8350 2825
+NoConn ~ 8350 2525
+NoConn ~ 8350 2325
+NoConn ~ 8350 2225
+NoConn ~ 8350 2075
+NoConn ~ 8350 1975
+$Comp
+L dk_Test-Points:RCT-0C TP?
+U 1 1 61A05A6B
+P 3575 7050
+F 0 "TP?" V 3450 7100 50  0000 L CNN
+F 1 "RCT-0C" V 3500 7075 50  0000 L CNN
+F 2 "digikey-footprints:PROBE_PAD_1206" H 3775 7250 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3775 7350 60  0001 L CNN
+F 4 "A106144CT-ND" H 3775 7450 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 3775 7550 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 3775 7650 60  0001 L CNN "Category"
+F 7 "Test Points" H 3775 7750 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3775 7850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 3775 7950 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 3775 8050 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 3775 8150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3775 8250 60  0001 L CNN "Status"
+	1    3575 7050
+	0    -1   1    0   
+$EndComp
+$Comp
+L dk_Test-Points:RCT-0C TP?
+U 1 1 61A1D60E
+P 3775 7150
+F 0 "TP?" V 3700 7125 50  0000 L CNN
+F 1 "RCT-0C" V 3650 7050 50  0000 L CNN
+F 2 "digikey-footprints:PROBE_PAD_1206" H 3975 7350 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3975 7450 60  0001 L CNN
+F 4 "A106144CT-ND" H 3975 7550 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 3975 7650 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 3975 7750 60  0001 L CNN "Category"
+F 7 "Test Points" H 3975 7850 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3975 7950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 3975 8050 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 3975 8150 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 3975 8250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3975 8350 60  0001 L CNN "Status"
+	1    3775 7150
+	0    1    -1   0   
+$EndComp
+$Comp
+L dk_Test-Points:RCT-0C TP?
+U 1 1 61A156F3
+P 3775 6950
+F 0 "TP?" V 3925 6925 50  0000 L CNN
+F 1 "RCT-0C" V 3850 6850 50  0000 L CNN
+F 2 "digikey-footprints:PROBE_PAD_1206" H 3975 7150 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3975 7250 60  0001 L CNN
+F 4 "A106144CT-ND" H 3975 7350 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 3975 7450 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 3975 7550 60  0001 L CNN "Category"
+F 7 "Test Points" H 3975 7650 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3975 7750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 3975 7850 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 3975 7950 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 3975 8050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3975 8150 60  0001 L CNN "Status"
+	1    3775 6950
+	0    1    -1   0   
+$EndComp
+Text Notes 3525 7150 0    50   ~ 0
+1
+Text Notes 3700 7000 0    50   ~ 0
+2
+Text Notes 3700 7200 0    50   ~ 0
+3
+Wire Notes Line
+	3600 7075 3750 7125
 $EndSCHEMATC

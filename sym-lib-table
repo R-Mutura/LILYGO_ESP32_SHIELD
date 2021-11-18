@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LilyGO_Esp32_Shield-rescue)(type Legacy)(uri ${KIPRJMOD}/LilyGO_Esp32_Shield-rescue.lib)(options "")(descr ""))
+)
