@@ -823,8 +823,8 @@ F 3 "" H 3475 7175 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3475 7175 3475 7050
-Text Notes 3475 6700 0    39   ~ 0
-ON/OFF SWITCH
+Text Notes 3225 6750 0    39   ~ 0
+ON/OFF SWITCH pads
 Wire Wire Line
 	3875 7150 4075 7150
 Wire Wire Line
@@ -1596,10 +1596,10 @@ F 4 "UT337M6R3HEJTA" H 8525 950 50  0001 C CNN "MFR"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GCL_Modules&Devboards:LilyGO_ESP32_TTGO U?
+L GCL_Modules&Devboards:LilyGO_ESP32_TTGO U2
 U 1 1 61971A82
 P 7450 1675
-F 0 "U?" H 7450 2056 50  0000 C CNN
+F 0 "U2" H 7450 2056 50  0000 C CNN
 F 1 "LilyGO_ESP32_TTGO" H 7450 1965 50  0000 C CNN
 F 2 "greencharge-footprints:LILLYGO_ESP32_TTGO" H 6500 1175 50  0001 C CNN
 F 3 "" H 6500 1175 50  0001 C CNN
@@ -1625,10 +1625,10 @@ NoConn ~ 8350 2225
 NoConn ~ 8350 2075
 NoConn ~ 8350 1975
 $Comp
-L dk_Test-Points:RCT-0C TP?
+L dk_Test-Points:RCT-0C TP5
 U 1 1 61A05A6B
 P 3575 7050
-F 0 "TP?" V 3450 7100 50  0000 L CNN
+F 0 "TP5" V 3450 7100 50  0000 L CNN
 F 1 "RCT-0C" V 3500 7075 50  0000 L CNN
 F 2 "digikey-footprints:PROBE_PAD_1206" H 3775 7250 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3775 7350 60  0001 L CNN
@@ -1645,10 +1645,10 @@ F 12 "Active" H 3775 8250 60  0001 L CNN "Status"
 	0    -1   1    0   
 $EndComp
 $Comp
-L dk_Test-Points:RCT-0C TP?
+L dk_Test-Points:RCT-0C TP7
 U 1 1 61A1D60E
 P 3775 7150
-F 0 "TP?" V 3700 7125 50  0000 L CNN
+F 0 "TP7" V 3700 7125 50  0000 L CNN
 F 1 "RCT-0C" V 3650 7050 50  0000 L CNN
 F 2 "digikey-footprints:PROBE_PAD_1206" H 3975 7350 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3975 7450 60  0001 L CNN
@@ -1665,10 +1665,10 @@ F 12 "Active" H 3975 8350 60  0001 L CNN "Status"
 	0    1    -1   0   
 $EndComp
 $Comp
-L dk_Test-Points:RCT-0C TP?
+L dk_Test-Points:RCT-0C TP6
 U 1 1 61A156F3
 P 3775 6950
-F 0 "TP?" V 3925 6925 50  0000 L CNN
+F 0 "TP6" V 3925 6925 50  0000 L CNN
 F 1 "RCT-0C" V 3850 6850 50  0000 L CNN
 F 2 "digikey-footprints:PROBE_PAD_1206" H 3975 7150 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3975 7250 60  0001 L CNN
